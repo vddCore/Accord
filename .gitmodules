@@ -1,0 +1,15 @@
+[submodule "Glitonea"]
+	path = Glitonea
+	url = git@github.com:vddCore/Glitonea.git
+[submodule "Glitonea.UI"]
+	path = Glitonea.UI
+	url = git@github.com:vddCore/Glitonea.UI.git
+[submodule "Glitonea.Framework/Glitonea"]
+	path = Glitonea.Framework/Glitonea
+	url = git@github.com:vddCore/Glitonea.git
+[submodule "Glitonea.Framework/Glitonea.UI"]
+	path = Glitonea.Framework/Glitonea.UI
+	url = git@github.com:vddCore/Glitonea.UI.git
+[submodule "Glitonea.Framework/Glitonea.Persistence"]
+	path = Glitonea.Framework/Glitonea.Persistence
+	url = git@github.com:vddCore/Glitonea.Persistence

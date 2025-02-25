@@ -1,0 +1,8 @@
+﻿<UserControl x:Class="GlitoneaDesktopApp.View.CoreUI.MainView"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mvvm="clr-namespace:Glitonea.Mvvm;assembly=Glitonea"
+             xmlns:vm="clr-namespace:GlitoneaDesktopApp.ViewModel.CoreUI"
+             DataContext="{mvvm:DataContextSource vm:MainViewModel}">
+
+</UserControl>

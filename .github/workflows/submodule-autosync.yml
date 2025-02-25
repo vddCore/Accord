@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+
+env:
+  CI_TOKEN: ${{ secrets.GLITONEA_CI_TOKEN }}
+
+jobs:
+  sync:
+    name: 'Submodule Autosync'
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        token: ${{ env.CI_TOKEN }}
+        submodules: true
+
+    - name: Update submodules
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
+
+    - name: Push to repository
+      run: |
+        git remote set-url origin https://x-access-token:${{ env.CI_TOKEN }}@github.com/${{ github.repository }}
+        git -c "user.name='Submodule Autosync'" -c "user.email=autosync@noreply.github.com" commit -am "Submodule autosync." && git push || echo "Nothing to sync."

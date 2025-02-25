@@ -1,0 +1,22 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:gli="clr-namespace:Glitonea;assembly=Glitonea"
+             xmlns:gui="clr-namespace:Glitonea.UI;assembly=Glitonea.UI"
+             xmlns:fa="clr-namespace:FluentAvalonia.Styling;assembly=FluentAvalonia"
+             x:Class="GlitoneaDesktopApp.App"
+             RequestedThemeVariant="Default">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <gli:Glitonea />
+                <gui:GlitoneaUI />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.Styles>
+        <FluentTheme />
+
+        <fa:FluentAvaloniaTheme PreferSystemTheme="True" />
+    </Application.Styles>
+</Application>

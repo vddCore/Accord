@@ -1,0 +1,16 @@
+<gui:FluentWindow x:Class="GlitoneaDesktopApp.View.Windows.MainWindow"
+                  xmlns="https://github.com/avaloniaui"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:gui="clr-namespace:Glitonea.UI;assembly=Glitonea.UI"
+                  xmlns:mvvm="clr-namespace:Glitonea.Mvvm;assembly=Glitonea"
+                  xmlns:vm="clr-namespace:GlitoneaDesktopApp.ViewModel.Windows"
+                  xmlns:coreui="clr-namespace:GlitoneaDesktopApp.View.CoreUI"
+                  DataContext="{mvvm:DataContextSource vm:MainWindowViewModel}"
+                  Width="800"
+                  Height="480"
+                  WindowStartupLocation="CenterScreen"
+                  Title="GlitoneaDesktopApp"
+                  CaptionBarBackground="#54000000"
+                  Background="#3A000000">
+    <coreui:MainView />
+</gui:FluentWindow>
