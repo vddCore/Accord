@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp.ViewModel.CoreUI;
+﻿namespace Accord.ViewModel.CoreUI;
 
 public class MainViewModel : ViewModelBase
 {

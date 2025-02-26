@@ -1,4 +1,4 @@
-namespace GlitoneaDesktopApp.View.Windows;
+namespace Accord.View.Windows;
 
 [DoNotNotify]
 public partial class MainWindow : FluentWindow

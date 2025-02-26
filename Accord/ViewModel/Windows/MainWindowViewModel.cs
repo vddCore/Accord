@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp.ViewModel.Windows;
+﻿namespace Accord.ViewModel.Windows;
 
 using Glitonea.Mvvm;
 

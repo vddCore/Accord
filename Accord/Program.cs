@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp;
+﻿namespace Accord;
 
 using System;
 using System.Reflection;

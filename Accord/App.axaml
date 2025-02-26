@@ -3,7 +3,7 @@
              xmlns:gli="clr-namespace:Glitonea;assembly=Glitonea"
              xmlns:gui="clr-namespace:Glitonea.UI;assembly=Glitonea.UI"
              xmlns:fa="clr-namespace:FluentAvalonia.Styling;assembly=FluentAvalonia"
-             x:Class="GlitoneaDesktopApp.App"
+             x:Class="Accord.App"
              RequestedThemeVariant="Default">
     <Application.Resources>
         <ResourceDictionary>

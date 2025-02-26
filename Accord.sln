@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Glitonea.Framework", "Glitonea.Framework", "{BFE1A8AC-8ADF-41D9-A568-011CD99E8FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlitoneaDesktopApp", "GlitoneaDesktopApp\GlitoneaDesktopApp.csproj", "{B8F7146F-06CC-4569-8BAA-EC2F75CDAB06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accord", "Accord\Accord.csproj", "{B8F7146F-06CC-4569-8BAA-EC2F75CDAB06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitonea", "Glitonea.Framework\Glitonea\Glitonea.csproj", "{66298861-9580-4275-8F41-887B76FFF62A}"
 EndProject

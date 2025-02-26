@@ -1,9 +1,9 @@
-namespace GlitoneaDesktopApp;
+namespace Accord;
 
 using System.Diagnostics;
+using Accord.View.Windows;
 using Autofac;
 using Glitonea.Extensibility;
-using GlitoneaDesktopApp.View.Windows;
 
 [DoNotNotify]
 public partial class App : Application, IContainerBuildingSubscriber

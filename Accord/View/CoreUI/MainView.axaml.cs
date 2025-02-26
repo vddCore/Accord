@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp.View.CoreUI;
+﻿namespace Accord.View.CoreUI;
 
 using Avalonia.Controls;
 
